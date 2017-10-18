@@ -36,6 +36,7 @@ var updateBeerDetails = function(beer) {
   var abv = document.getElementById("abv");
   var img = document.getElementById("img")
   var image = document.createElement("img")
+  img.innerHTML = "";
   name.innerText = "Name: " + beer.name;
   tagline.innerText = "Population: " + beer.tagline;
   abv.innerText = "Capital: " + beer.abv;
